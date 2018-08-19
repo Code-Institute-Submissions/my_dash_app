@@ -15,7 +15,7 @@ USERNAME_PASSWORD_PAIRS = [
 
 app = dash.Dash()
 auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
-server = app.sever
+server = app.server
 
 nsdq = pd.read_csv('data/NASDAQcompanylist.csv')
 nsdq.set_index('Symbol', inplace=True)
