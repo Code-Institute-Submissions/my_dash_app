@@ -1,8 +1,6 @@
 [![Build Status](https://travis-ci.org/90t/my_dash_app.svg?branch=master)](https://travis-ci.org/90t/my_dash_app)
 
-# Your Project's Name
-
-Stock DashBoard
+# Stock DashBoard
 
 The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
  syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
