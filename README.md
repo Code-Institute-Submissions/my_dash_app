@@ -153,7 +153,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I was notified of a security issue from GitHub support or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -208,10 +208,11 @@ If this section grows too long, you may want to split it off into a separate fil
 ##### - I updated the python file and did a final add, commit and push to the Heroku Git.
 ##### My project can be viewed fully deployed on Heroku [here]().
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- This is the development & deployed version
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
-- My Separate git branch can be found here 
+- My Separate git branch can be found here  [GitHub](https://github.com/90t/my_dash_app.git)
+
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -219,10 +220,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- I created All the content
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained PixelBay.
 
 ### Acknowledgements
 
