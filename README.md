@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/90t/my_dash_app.svg?branch=master)](https://travis-ci.org/90t/my_dash_app)
+
 # Your Project's Name
+
 Stock DashBoard
 
 The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
