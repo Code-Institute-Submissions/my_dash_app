@@ -1,11 +1,14 @@
+[![Build Status](https://travis-ci.org/90t/my_dash_app.svg?branch=master)](https://travis-ci.org/90t/my_dash_app)
+
 # Stock DashBoard
+
 
 The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
  syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
  code & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & work, & operate
  efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
  it is also very easy to use, with minmil color so as to not distracte from the objective, which is to 
- allows users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
+ allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
  
  So I started looking into liberiers such excel, tableau, even power point,& then I discoverd the annocement by plotly,
  While there are some draw backs to ploty , such as a very basic authorisation package that comes in the way a separate dash-auth package.
@@ -22,17 +25,17 @@ The idea for this project came from a D3 Stock DasBoard that I had prevouisly se
  
  You are responsible for safely storing the username and password pairs in your code.   
 
-While these draw backs are sugnifecent , the ease in which plotly is designed really makes up for the draw backs,
+ While these draw backs are sugnifecent , the ease in which plotly is designed really makes up for the draw backs,
 
-Such as creating a whole dashboard using html ,css ,python ,markdown in just 1 file.
+ Such as creating a whole dashboard using html ,css ,python ,markdown in just 1 file.
  
-with the flask framework for the ease of deployment to heroku,
+ with the flask framework for the ease of deployment to heroku,
 
-it becomes a very small light but powerfull stack of software technologys.
+ it becomes a very small light but powerfull stack of software technologys.
 
-Creating an account on plotly was a breese , but the cloud console does take some getting used to,
+ Creating an account on plotly was a breese , but the cloud console does take some getting used to,
 
-the ploty documentaion is excellent
+ the ploty documentaion is excellent
 
 
  
@@ -130,7 +133,13 @@ In addition, you may also use this section to discuss plans for additional featu
 - [WordPress](LightHouseChromeExstention)
     - The project uses **tinypng** to compress pictures & ilustrations
     
-- [WordPress](LightHouseChromeExstention)
+- [nginx](LightHouseChromeExstention)
+    - The project uses **tinypng** to compress pictures & ilustrations
+    
+- [puttySSL](LightHouseChromeExstention)
+    - The project uses **tinypng** to compress pictures & ilustrations
+    
+- [DigitalOcean](LightHouseChromeExstention)
     - The project uses **tinypng** to compress pictures & ilustrations
    
 
@@ -161,8 +170,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ## HOW THE PROJECT WAS DEPLOYED
 ## First task was to version control my application on GitHub
 ## Next task is to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that we can link to 
-## I already have my Flask venv activated, so next I had to install a new dependency by the package name 
-## gunicorn for deploying the app: I accomplished this with the command  pip install gunicorn
+## I already have my Flask venv activated, so next I had to install a new dependency by the package name gunicorn
+## for deploying the app: I accomplished this with the command  pip install gunicorn
 ## My next task was to create a .gitignore file for my application & code in the recommended /files/folders
 - venv
 - *.pyc
@@ -175,8 +184,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## - Here app refers to the filename of our application (app.py) and server refers to the variable server inside that file.
  
-##### - To make sure all my dependencies were added to my requirements.txt file I used the pip freeze command and then synchronized them.
-##### My dependencies are 
+### - To make sure all my dependencies were added to my requirements.txt file I used the pip freeze command and then synchronized them.
+### My dependencies are 
 - chardet==3.0.4
 - click==6.7
 - Cython==0.28.2
@@ -198,14 +207,14 @@ If this section grows too long, you may want to split it off into a separate fil
 - gunicorn==19.0.0
 - psycopg2==2.7.5
 - dash-auth==1.0.0
-##### - I then logged into heroku 
-##### - I did my initial add, commit and push of my project to the git created by Heroku.
-##### - I started a dyno/worker a thread to run in the background infinitly to keep my app running with the command ps:scale web=-1
-##### - I installed a Heroku addon called mLab to host and monitor my database 24/7 and back it up daily. This involved creating a user, connecting to the database, creating a collection, importing the csv file and making a connection from the Mongo Management Studio.
-##### - I imported the os module in my python file, this module allows the code to interact with the underlying operating system you are using, In my file I am using the getenv method this obtains environment variables from the host operating system.
-##### - I added my environment variables to my heroku app and to my Flask project in Pycharm.
-##### - I updated the python file and did a final add, commit and push to the Heroku Git.
-##### My project can be viewed fully deployed on Heroku [here]().
+## - I then logged into heroku 
+## - I did my initial add, commit and push of my project to the git created by Heroku.
+## - I started a dyno/worker a thread to run in the background infinitly to keep my app running with the command ps:scale web=-1
+## - I installed a Heroku addon called mLab to host and monitor my database 24/7 and back it up daily. This involved creating a user, connecting to the database, creating a collection, importing the csv file and making a connection from the Mongo Management Studio.
+## - I imported the os module in my python file, this module allows the code to interact with the underlying operating system you are using, In my file I am using the getenv method this obtains environment variables from the host operating system.
+## - I added my environment variables to my heroku app and to my Flask project in Pycharm.
+## - I updated the python file and did a final add, commit and push to the Heroku Git.
+## My project can be viewed fully deployed on Heroku [here]().
 
 - This is the development & deployed version
 - Different values for environment variables (Heroku Config Vars)?
