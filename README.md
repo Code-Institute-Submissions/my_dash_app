@@ -197,5 +197,5 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 
 ### Acknowledgements
 - I received inspiration for this project from studying the Awesome Python Programming Language & Data Visualization for the whole year , it was & is amazing
-##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3, Signing Off......
+##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3 Data Visualization[DataDiscoverys.com ](https://datadiscoverys.com/) , Signing Off......
 
