@@ -10,7 +10,7 @@ import pandas_datareader.data as web  # requires v0.6.0 or later
 from datetime import datetime
 
 USERNAME_PASSWORD_PAIRS = [
-    ['batman', 'brucewayne']
+    ['#', '#']
 ]
 
 app = dash.Dash()
