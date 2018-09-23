@@ -61,7 +61,7 @@
           <entry key="Procfile" value="25" />
           <entry key="env" value="18" />
           <entry key="gitignore" value="31" />
-          <entry key="md" value="5932" />
+          <entry key="md" value="6036" />
           <entry key="py" value="314" />
           <entry key="txt" value="9" />
           <entry key="yml" value="11" />
@@ -70,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="18" />
-          <entry key="Markdown" value="5932" />
+          <entry key="Markdown" value="6036" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="Python" value="314" />
           <entry key="YAML" value="11" />
@@ -95,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="199" column="56" lean-forward="true" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
+              <first_editor relative-caret-position="442">
+                <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -367,8 +367,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="199" column="56" lean-forward="true" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
+          <first_editor relative-caret-position="442">
+            <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,7 +1,6 @@
 #### Clive Noonan , Full Stack Student In CODE INSTITUTE
 ## NASTAC Plotly StockTracker DashBoard is a
 ##### Child To [DataDiscoverys.com ](https://datadiscoverys.com/)
-
 - I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
 - This is part of the Four frontends which make the whole project of DataDiscoverys.com which is the last project
 - that I will be Submitting
@@ -10,9 +9,40 @@
 - from Edinburgh Napier University. This Project utilises wholemiriad of technology.
 - Consult the tech section in each README.md or the Super README.md
 
-- The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
- - syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
- - code & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
+##### The inspiration for this project came from 
+ 
+
+
+ 
+## UX
+- The UX on this dash board is very simple, purposly so , it does not needlsy take away from fuctioning aspect of the click effects ,
+
+- the click effects & hover points are also very mild, but work as intended , the dashboard is very intutive just by observation ,
+
+- it is very clear to see the date picker , the user can find & see the Enter a stock symbol: dropdown click box,
+
+- these colors are also very mild so to let the user just find & choose the given company in which to run the data against,
+
+- Similer also go,s for our Select start and end dates: these elemnets on our dashboard are clearly defined with
+- a bold but light strong blue, it serves it purpose well,
+
+- Our Submit button is ajason to our main elements , leading to the right, but with suffieceint space &
+- clarity to be easly seen & interperrted,
+
+- Our Ploty Interactive Tabs are ajason to our submit button , leading to the right, this tool bar is very powerfull &
+- is for the more advanced users
+
+- The DashBoard its self sits on a barly viisble cross checked grey grid , but protomlitly it is white ,
+- which creates almost like a interactive white sheet of paper, this is very effective when it comes to reading the data &
+- visually interpertting the outcome of comparison of stock change, agian very easy to use.
+
+- Our Tool Tips are very effetive in there seemless intergration to our calender on the x axis , protraying the rise & fall
+- on the stock price,
+
+- Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very contrasting colors
+- so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations 
+- I wanted to find a libereirey that I could build a dashboard with minimil code 
+ - still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
  - efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
  - it is also very easy to use, with minimil color so as to not distracte from the objective, which is to 
  - allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
@@ -44,37 +74,7 @@
 
  - Creating an account on plotly was a breese , but the cloud console does take some getting used to,
 
- - the ploty documentaion is excellent
-
-
- 
-## UX
-The UX on this dash board is very simple, purposly so , it does not needlsy take away from fuctioning aspect of the click effects ,
-
-the click effects & hover points are also very mild, but work as intended , the dashboard is very intutive just by observation ,
-
-it is very clear to see the date picker , the user can find & see the Enter a stock symbol: dropdown click box,
-
-these colors are also very mild so to let the user just find & choose the given company in which to run the data against,
-
-Similer also go,s for our Select start and end dates: these elemnets on our dashboard are clearly defined with
-a bold but light strong blue, it serves it purpose well,
-
-Our Submit button is ajason to our main elements , leading to the right, but with suffieceint space &
-clarity to be easly seen & interperrted,
-
-Our Ploty Interactive Tabs are ajason to our submit button , leading to the right, this tool bar is very powerfull &
-is for the more advanced users
-
-The DashBoard its self sits on a barly viisble cross checked grey grid , but protomlitly it is white ,
-which creates almost like a interactive white sheet of paper, this is very effective when it comes to reading the data &
-visually interpertting the outcome of comparison of stock change, agian very easy to use.
-
-Our Tool Tips are very effetive in there seemless intergration to our calender on the x axis , protraying the rise & fall
-on the stock price,
-
-Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very contrasting colors
-so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations  
+ - the ploty documentaion is excellent 
 
 
 ##### To Enjoy an easier & more easy on the eye way to
