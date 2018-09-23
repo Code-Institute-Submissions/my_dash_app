@@ -25,16 +25,17 @@ for tic in nsdq.index:
     options.append({'label': '{} {}'.format(tic, nsdq.loc[tic]['Name']), 'value': tic})
 
 app.layout = html.Div([
-    html.H1('Stock Dashboard', style={'color': '#007eff', 'font': '400 22px Arial'}),
-    html.Div([
-        html.H3('Enter a stock symbol:', style={'paddingRight': '30px', 'color': '#007eff', 'font': '400 22px Arial'}),
+    html.H1('NASDAQ Stock Dashboard', style={'color': '#007eff', 'font': '400 22px Arial'}),
+    html.Div({
+        html.H3('Pick a NASDAQ stock symbol:',
+                style={'paddingRight': '30px', 'color': '#007eff', 'font': '400 22px Arial'}),
         dcc.Dropdown(
             id='my_ticker_symbol',
             options=options,
             value=['TSLA'],
             multi=True
         )
-    ], style={'display': 'inline-block', 'verticalAlign': 'top', 'width': '30%', 'font': '400 22px Arial'}),
+    }, style={'display': 'inline-block', 'verticalAlign': 'top', 'width': '30%', 'font': '400 22px Arial'}),
     html.Div([
         html.H3('Select start and end dates:'),
         dcc.DatePickerRange(
