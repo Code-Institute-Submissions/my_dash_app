@@ -68,26 +68,20 @@ Our line Chart is the main focus , with the chosen company & the chosen date, we
 so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations  
 
 
-
-
-
-
-
-
-
-
- 
 ##### To View Exstensive User Testing With The NASTAC StockTracker please Visit
 - [datadiscoverys.com](https://datadiscoverys.com/)
+- In carrying out the data analysis I also tested the functionality 
 
 ## Features
-
-- The features in my project are simple but very powerfull,
-## Technologies Used
+- The features in my project are simple but very powerful,
 - 1: A Drop down menu with a list of 275 Companies fom the NASTAC StockMarket
 - 2: A Drop down calender which go,s back to 2015
-- 3: The main DashBoards Chart is a simple but powerfull Line Chart Visualisation
--  
+- 3: The main DashBoards Chart is a simple but powerful Line Chart Visualisation that responds to user selection & input
+- 4: The Submit Button is the trigger that fires the data Request
+- 5: The finished Visualisation 
+
+## Technologies Used
+
 
 - [HTML5](https://https://www.w3schools.com/)
     - The project uses **HTML5** to house the sturcture & the base semantics.s
@@ -128,9 +122,6 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 - [DigitalOcean](LightHouseChromeExstention)
     - The project uses **tinypng** to compress pictures & ilustrations
    
-
-## Testing
-
 
 ## Deployment
 ##### clivedennisnoonan@gmail.com heroku account
@@ -183,23 +174,15 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 - This is the development & deployed version
 - My Separate git branch can be found here[GitHub](https://github.com/90t/my_dash_app.git)
 
-
-- Expalin about passwords
-
-
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
-##### - [GitHub](https://plot.ly/)
+##### - [Plotly](https://plot.ly/)
 
 ### Content
-- I Sourced My data from
-
-### Media
-- The photos used in this site were obtained PixelBay.
+- I Sourced My data from 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- [Plotly](https://plot.ly/)
