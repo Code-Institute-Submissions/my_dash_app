@@ -1,5 +1,14 @@
+#### Clive Noonan , Full Stack Student In CODE INSTITUTE
+## NASTAC Plotly Stock DashBoard
+##### Child To Data Discoverys.com[datadiscoverys.com](https://datadiscoverys.com/)
 
-# NASTAC Plotly Stock DashBoard
+- I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
+- This is part of the Four frontends which make the whole project of DataDiscoverys.com which is the last project
+- that I will be Submittings
+
+- This is the third of five projects which I must complete in order to be awarded the globally recognised Diploma 
+- from Edinburgh Napier University. This Project utilises wholemiriad of technology.
+- Consult the tech section in each README.md or the Super README.md
 
 - The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
  - syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
@@ -139,11 +148,9 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 - .DS_Store
 - .env
 
-## Next task was to create procfile for my application ,procfile will tell Heroku what to do once the project has been deployed.
--In my procfile entered web:- gunicorn app:server 
-###
+#####  Next task was to create procfile for my application ,procfile will tell Heroku what to do once the project has been deployed.
+- In my procfile entered web:- gunicorn app:server 
 - Here app refers to the filename of our application (app.py) and server refers to the variable server inside that file.
-###
 - To make sure all my dependencies were added to my requirements.txt file I used the pip freeze command and then synchronized them.
 ### My dependencies are 
 - chardet==3.0.4
@@ -168,7 +175,7 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 - psycopg2==2.7.5
 - dash-auth==1.0.0
 
-### - I did my add, commit and push of my project to the git repo created by Heroku.
+##### I did my add, commit and push of my project to the git repo created by Heroku.
 ### My project can be viewed fully deployed on Heroku[here](https://clives-plotly-dash-board.herokuapp.com/)
 
 - This is the development & deployed version
@@ -178,10 +185,12 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 
 
 ## Credits
-##### - [Plotly](https://plot.ly/)
+##### [Plotly](https://plot.ly/)
 
 ### Content
 - I Sourced My data from 
+##### [Plotlyhttps://github.com/plotly/datasets](https://github.com/plotly/datasets)
+
 
 ### Acknowledgements
 
