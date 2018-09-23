@@ -133,25 +133,27 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 
 
 ## Deployment
+##### clivedennisnoonan@gmail.com heroku account
 
 #### HOW THE PROJECT WAS DEPLOYED
 ##### First task was to version control my application on GitHub
-##### Next task is to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that we can link to 
+##### I then logged into heroku in my cli in pycharm
+##### Next task was to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that I can link to 
 ##### I already have my Flask venv activated, so next I had to install a new dependency by the package name gunicorn
-##### for deploying the app: I accomplished this with the command  pip install gunicorn
-##### My next task was to create a .gitignore file for my application & code in the recommended /files/folders
+##### for deploying the app
+##### I accomplished this with the command pip install gunicorn
+##### My next task was to create a .gitignore file for my application & ignore the recommended /files/folders
 - venv
 - *.pyc
 - .DS_Store
 - .env
 
-## Next task was to create  procfile for my application ,these are files that tell Heroku what to do once the project has been deployed.
- 
-#### Where we enter web:- gunicorn app:server 
-
-## - Here app refers to the filename of our application (app.py) and server refers to the variable server inside that file.
- 
-### - To make sure all my dependencies were added to my requirements.txt file I used the pip freeze command and then synchronized them.
+## Next task was to create procfile for my application ,procfile will tell Heroku what to do once the project has been deployed.
+-In my procfile entered web:- gunicorn app:server 
+###
+- Here app refers to the filename of our application (app.py) and server refers to the variable server inside that file.
+###
+- To make sure all my dependencies were added to my requirements.txt file I used the pip freeze command and then synchronized them.
 ### My dependencies are 
 - chardet==3.0.4
 - click==6.7
@@ -174,13 +176,12 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 - gunicorn==19.0.0
 - psycopg2==2.7.5
 - dash-auth==1.0.0
-### - I then logged into heroku 
-### - I did my initial add, commit and push of my project to the git created by Heroku.
-### - I updated the python file and did a final add, commit and push to the Heroku Git.
-### My project can be viewed fully deployed on Heroku [here](https://clives-plotly-dash-board.herokuapp.com/)
+
+### - I did my add, commit and push of my project to the git repo created by Heroku.
+### My project can be viewed fully deployed on Heroku[here](https://clives-plotly-dash-board.herokuapp.com/)
 
 - This is the development & deployed version
-- My Separate git branch can be found here  [GitHub](https://github.com/90t/my_dash_app.git)
+- My Separate git branch can be found here[GitHub](https://github.com/90t/my_dash_app.git)
 
 
 - Expalin about passwords
@@ -191,9 +192,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+##### - [GitHub](https://plot.ly/)
 
 ### Content
-- I created All the content
+- I Sourced My data from
 
 ### Media
 - The photos used in this site were obtained PixelBay.
