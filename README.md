@@ -178,7 +178,7 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 ### My project can be viewed fully deployed on Heroku[here](https://clives-plotly-dash-board.herokuapp.com/)
 
 - This is the development & deployed version
-- My Separate git branch can be found here[GitHub](https://github.com/90t/my_dash_app.git)
+- My git branch can be found here[GitHub](https://github.com/90t/my_dash_app.git)
 
 - In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -187,7 +187,7 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 ##### [Plotly](https://plot.ly/)
 
 ### Content
-- I Sourced My data from 
+- I Sourced All My data from 
 ##### [Plotlyhttps://github.com/plotly/datasets](https://github.com/plotly/datasets)
 
 
@@ -196,6 +196,6 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 ##### syllabuss1/LMS1 & syllabuss2/LMS2(cloud-9) & [Plotly](https://plot.ly/)
 
 ### Acknowledgements
-- I received inspiration for this project from studying the Awesome Python Programming Language & Data Visualizationfor the whole year , it was & is amazing
+- I received inspiration for this project from studying the Awesome Python Programming Language & Data Visualization for the whole year , it was & is amazing
 ##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3, Signing Off......
 
