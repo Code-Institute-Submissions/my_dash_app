@@ -1,39 +1,41 @@
 
-# Stock DashBoard
+# NASTAC Plotly Stock DashBoard
 
-The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
- syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
- code & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & work, & operate
- efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
- it is also very easy to use, with minmil color so as to not distracte from the objective, which is to 
- allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
+- The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
+ - syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
+ - code & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
+ - efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
+ - it is also very easy to use, with minimil color so as to not distracte from the objective, which is to 
+ - allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
  
- So I started looking into liberiers such excel, tableau, even power point,& then I discoverd the annocement by plotly,
- While there are some draw backs to ploty , such as a very basic authorisation package that comes in the way a separate dash-auth package.
- dash-auth provides two methods of authentication: HTTP Basic Auth and Plotly OAuth.
+ - So I started looking into liberiers such excel, tableau, even power point,& then I discoverd the annocement by plotly,
+ - While there are some draw backs to ploty , such as a very basic authorisation package that comes in the way a separate dash-auth package.
+ - dash-auth provides two methods of authentication: HTTP Basic Auth and Plotly OAuth.
  
- HTTP Basic Auth is one of the simplest forms of authentication on the web. 
+ - HTTP Basic Auth is one of the simplest forms of authentication on the web. 
  
- you the developer hardcode a set of usernames and passwords in your code and send those usernames and passwords to your viewers. There are a few limitations to HTTP Basic Auth:
- Users can not log out of applications
+ - you the developer hardcode a set of usernames and passwords in your code and send those usernames and passwords to your viewers.
+ - There are a few limitations to HTTP Basic Auth:
+  
+ - Users can not log out of applications
  
- You are responsible for sending the usernames and passwords to your viewers over a secure channel
+ - You are responsible for sending the usernames and passwords to your viewers over a secure channel
  
- Your viewers can not create their own account and cannot change their password
+ - Your viewers can not create their own account and cannot change their password
  
- You are responsible for safely storing the username and password pairs in your code.   
+ - You are responsible for safely storing the username and password pairs in your code.   
 
- While these draw backs are sugnifecent , the ease in which plotly is designed really makes up for the draw backs,
+ - While these draw backs are sugnifecent , the ease in which plotly is designed really makes up for the draw backs,
 
- Such as creating a whole dashboard using html ,css ,python ,markdown in just 1 file.
+ - Such as creating a whole dashboard using html ,css ,python ,markdown in just 1 file.
  
- with the flask framework for the ease of deployment to heroku,
+ - with the flask framework for the ease of deployment to heroku,
 
- it becomes a very small light but powerfull stack of software technologys.
+ - it becomes a very small light but powerfull stack of software technologys.
 
- Creating an account on plotly was a breese , but the cloud console does take some getting used to,
+ - Creating an account on plotly was a breese , but the cloud console does take some getting used to,
 
- the ploty documentaion is excellent
+ - the ploty documentaion is excellent
 
 
  
@@ -143,34 +145,15 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach,
- link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant.
- A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-I was notified of a security issue from GitHub support or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-## HOW THE PROJECT WAS DEPLOYED
-## First task was to version control my application on GitHub
-## Next task is to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that we can link to 
-## I already have my Flask venv activated, so next I had to install a new dependency by the package name gunicorn
-## for deploying the app: I accomplished this with the command  pip install gunicorn
-## My next task was to create a .gitignore file for my application & code in the recommended /files/folders
+#### HOW THE PROJECT WAS DEPLOYED
+##### First task was to version control my application on GitHub
+##### Next task is to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that we can link to 
+##### I already have my Flask venv activated, so next I had to install a new dependency by the package name gunicorn
+##### for deploying the app: I accomplished this with the command  pip install gunicorn
+##### My next task was to create a .gitignore file for my application & code in the recommended /files/folders
 - venv
 - *.pyc
 - .DS_Store
@@ -205,19 +188,17 @@ If this section grows too long, you may want to split it off into a separate fil
 - gunicorn==19.0.0
 - psycopg2==2.7.5
 - dash-auth==1.0.0
-## - I then logged into heroku 
-## - I did my initial add, commit and push of my project to the git created by Heroku.
-## - I started a dyno/worker a thread to run in the background infinitly to keep my app running with the command ps:scale web=-1
-## - I installed a Heroku addon called mLab to host and monitor my database 24/7 and back it up daily. This involved creating a user, connecting to the database, creating a collection, importing the csv file and making a connection from the Mongo Management Studio.
-## - I imported the os module in my python file, this module allows the code to interact with the underlying operating system you are using, In my file I am using the getenv method this obtains environment variables from the host operating system.
-## - I added my environment variables to my heroku app and to my Flask project in Pycharm.
-## - I updated the python file and did a final add, commit and push to the Heroku Git.
-## My project can be viewed fully deployed on Heroku [here]().
+### - I then logged into heroku 
+### - I did my initial add, commit and push of my project to the git created by Heroku.
+### - I updated the python file and did a final add, commit and push to the Heroku Git.
+### My project can be viewed fully deployed on Heroku [here](https://clives-plotly-dash-board.herokuapp.com/)
 
 - This is the development & deployed version
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
 - My Separate git branch can be found here  [GitHub](https://github.com/90t/my_dash_app.git)
+
+
+- Expalin about passwords
+
 
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
