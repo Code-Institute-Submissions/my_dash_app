@@ -1,10 +1,10 @@
 #### Clive Noonan , Full Stack Student In CODE INSTITUTE
-## NASTAC Plotly Stock DashBoard
-##### Child To Data Discoverys.com[datadiscoverys.com](https://datadiscoverys.com/)
+## NASTAC Plotly StockTracker DashBoard is a
+##### Child To [DataDiscoverys.com ](https://datadiscoverys.com/)
 
 - I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
 - This is part of the Four frontends which make the whole project of DataDiscoverys.com which is the last project
-- that I will be Submittings
+- that I will be Submitting
 
 - This is the third of five projects which I must complete in order to be awarded the globally recognised Diploma 
 - from Edinburgh Napier University. This Project utilises wholemiriad of technology.
@@ -77,14 +77,15 @@ Our line Chart is the main focus , with the chosen company & the chosen date, we
 so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations  
 
 
-##### To View Exstensive User Testing With The NASTAC StockTracker please Visit
+##### To Enjoy an easier & more easy on the eye way to
+##### View Exstensive User Testing With The NASTAC StockTracker please Visit
 - [datadiscoverys.com](https://datadiscoverys.com/)
 - In carrying out the data analysis I also tested the functionality 
 
 ## Features
 - The features in my project are simple but very powerful,
 - 1: A Drop down menu with a list of 275 Companies fom the NASTAC StockMarket
-- 2: A Drop down calender which go,s back to 2015
+- 2: A Drop down calender which has a timeline from 2015 to 2018
 - 3: The main DashBoards Chart is a simple but powerful Line Chart Visualisation that responds to user selection & input
 - 4: The Submit Button is the trigger that fires the data Request
 - 5: The finished Visualisation 
@@ -133,9 +134,7 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
    
 
 ## Deployment
-##### clivedennisnoonan@gmail.com heroku account
-
-#### HOW THE PROJECT WAS DEPLOYED
+#### HOW I MY DEPLOYED MY PROJECT
 ##### First task was to version control my application on GitHub
 ##### I then logged into heroku in my cli in pycharm
 ##### Next task was to create a heroku app using the HerokuCLI. This is turn will create a remote Git Repository that I can link to 
@@ -192,6 +191,11 @@ so as to not obscure from it rivals on the main interface , our line chart is ve
 ##### [Plotlyhttps://github.com/plotly/datasets](https://github.com/plotly/datasets)
 
 
-### Acknowledgements
+## Acknowledgements
+##### I didn't base my work off other code, I used only what I had learnt in
+##### syllabuss1/LMS1 & syllabuss2/LMS2(cloud-9) & [Plotly](https://plot.ly/)
 
-- [Plotly](https://plot.ly/)
+### Acknowledgements
+- I received inspiration for this project from studying the Awesome Python Programming Language & Data Visualizationfor the whole year , it was & is amazing
+##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3, Signing Off......
+
