@@ -10,7 +10,7 @@ import pandas_datareader.data as web  # requires v0.6.0 or later
 from datetime import datetime
 
 USERNAME_PASSWORD_PAIRS = [
-    ['#', '#']
+    ['batman', 'brucewayne']
 ]
 
 app = dash.Dash()
@@ -27,7 +27,7 @@ for tic in nsdq.index:
 app.layout = html.Div([
     html.H1('NASTACStock Dashboard', style={'color': '#007eff', 'font': '400 22px Arial'}),
     html.Div([
-        html.H3('Enter a NASTAC stock symbol:', style={'paddingRight': '30px', 'color': '#007eff', 'font': '400 22px Arial'}),
+        html.H3('Choose a NASTAC stock symbol:', style={'paddingRight': '30px', 'color': '#007eff', 'font': '400 22px Arial'}),
         dcc.Dropdown(
             id='my_ticker_symbol',
             options=options,
