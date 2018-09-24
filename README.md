@@ -1002,7 +1002,7 @@
 ##### 1 
 - Range Slider
 - The Range Slider is the key to analisis
-- Statisticil over view of the worlds emmissions data over the course of a 21 year period from 1990 to 2011
+- Statisticil over view of the worlds emmissions data over the course of a 20 year period from 1990 to 2010
 - This is where the fuctionality of our range slider comes into play
 - by manipulating the range slider to our chosen dates we can test the differencs & compariosns in the data
 - again similer to Savys layout of operations The Range Slider is the key to analisis since this is the starting point of all 3 dash-boards
@@ -1038,7 +1038,7 @@
 - The Radial map is of course the main point of focus of the whole dashboard
 - This beacuse it controlls our barchart which in turn sits on our line chart
 - by clicking a country after choosing a date , we can then see the true power of this dashboard
-- as then barchart fluxtuates into postion, the analist has an amAzing view of 4 different data inducators which are
+- as the barchart fluxtuates into postion, the analist has an amAzing view of 4 different data indicators which are
 
 - 1:Total emissions by continent and region(PIECHART) displayed with a Title & a informative tooltip
 
@@ -1046,20 +1046,21 @@
 
 - 3:Carbon dioxide emissions (MAPCHART) displayed with a time line & a informative tooltip
 
-- 4:Total emissions by continent and region(LINEGRAPH) the Y axis of our LineGraph displays CO2 emissions, metric tons per capita
+- 4:Total emissions by continent and region(LINEGRAPH)
+- the Y axis of our LineGraph displays CO2 emissions, metric tons per capita
 - By choosing to select the Emissions Per Capita Check Radio Button the Y axis of our LineGraph displays CO2 emissions, metric tons per
 - capita as a guide to assist the analist in caging the difference between the years which will be highligthed in our corrsponding barchart
 - the X axis of our LineGraph is the time line that will assist in measureing the diffrences in yearly output of data
 - in a sinqencule 2 year rise over a twenty year period
 
-#### So it is a 5 step process,if you are planning to analise the data
+#### So it is a 6 step process,if you are planning to analise the data
 
-##### No1, 
-##### No2, 
-##### No3,
-##### No4, 
-##### No5, 
-##### N06,  
+##### No1, Pick a date withn the range slider, lets the year 2000
+##### No2, choose A catogorie, let say emissions Per Capita
+##### No3, choose A country, Lets say China 
+##### No4, observe the BarChart Slide along the LineGraph
+##### No5, observe your PieChart
+##### N06, Analize your data
 
 
 ##### Testing the data against 3 different Countrys was an excellent way to test the functionality
