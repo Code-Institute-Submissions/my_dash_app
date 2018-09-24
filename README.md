@@ -135,7 +135,7 @@
 
 
 ### Content
-- I creaetd All The Content 
+- I created All The Content 
 ##### 
 
 ### Acknowledgements
@@ -227,7 +227,8 @@
 - Our Tool Tips are very effetive in there seemless intergration to our calender on the x axis , protraying the rise & fall
 - on the stock price,
 
-- Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very contrasting colors
+- Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very
+- contrasting colors
 - so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations 
 - I wanted to find a libereirey that I could build a dashboard with minimil code 
  - still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
@@ -264,22 +265,33 @@
 
  - the ploty documentaion is excellent 
 
-
-##### To Enjoy an easier & more easy on the eye way to
-##### View Exstensive User Testing With The NASTAC StockTracker please Visit
-- [datadiscoverys.com](https://datadiscoverys.com/)
-- In carrying out the data analysis I also tested the functionality 
-
 ## Features
-- The features in my project are simple but very powerful,
-- 1: A Drop down menu with a list of 275 Companies fom the NASTAC StockMarket
+- The features in my project are simple but very powerful
+- 1: A Drop down menu with a list of Companies fom the NASTAC StockMarket
 - 2: A Drop down calender which has a timeline from 2015 to 2018
 - 3: The main DashBoards Chart is a simple but powerful Line Chart Visualisation that responds to user selection & input
 - 4: The Submit Button is the trigger that fires the data Request
 - 5: The finished Visualisation 
 
-## Technologies Used
 
+## User Testing & Analitics
+
+##### I tested each graph visually to make sure
+- everything loaded properly
+- when I selected an element on each graph the corresponding graphs responded and showed accurate statistics.
+
+##### In the developer tools I tested that the website was responsive in tablet and mobile mode and again when the project was deployed I ##### tested on my mobile, tablet and laptop that my DashBoard was responsive.
+##### All dashboards are responsive to different screen sizes, example would be sony mobile & XL Microsoft 10 to a Tablet to a Smart tv
+- But froom the Tablet & upwards is where these dashboards are most fuctional & stunning in there more natrual enviorenmnet
+
+##### To Enjoy an easier & more easy on the eye way to
+##### View Exstensive User Testing With The NASTAC StockTracker please Visit
+- [datadiscoverys.com](https://datadiscoverys.com/)
+- In carrying out the data analysis I also tested the functionality
+
+
+
+## Technologies Used
 
 - [HTML5](https://https://www.w3schools.com/)
     - The project uses **HTML5** to house the sturcture & the base semantics.s
@@ -852,22 +864,27 @@
 - This when I decided to go with Google Firebase
 
 
-- This led me to  Firebase,  Firebase is a service in which we can deploy static websites on a free tier with excellent documentation and configeration options
-- it a excellent choice & can also be upgraded with relevent ease, all of this operation is carried out in our google firebase Cloud-console & Installed
+- This led me to  Firebase,  Firebase is a service in which we can deploy static websites on a free tier with excellent documentation and
+- configeration options
+- it a excellent choice & can also be upgraded with relevent ease, all of this operation is carried out in our google firebase
+- Cloud-console & Installed
 - FireBaseCli,
 
 - To Deploy this project you need to have the latest version of Node.js installed on your local machine/pc
 
-- After installing Node.js & Checking you have a version number, you will have to navigate to your project folder & run firebase init , this will initilise your
+- After installing Node.js & Checking you have a version number, you will have to navigate to your project folder & run firebase init
+- this will initilise your
 - project directory with a firebase.json file , this file holds the configeration for your deployment
 
 - After initilisation you have to create can account with google firebase, (If you have a gmail, you have a firebase)
 - once logged in to google you will have the abilty to access the firebaseCli & its commands
 
-- Once you are satifactory with your project that you will be deploying, you will have to go your google firebase console, go to the Hosting tab & create a
+- Once you are satifactory with your project that you will be deploying, you will have to go your google firebase console, go to the
+- Hosting tab & create a
 - project google will give you a default folder of PUBLISH,
 
-- So now we have 3 projects/folders , one on Firebase & one on Your Local Machine & one on GitHub(Providing you versioned controlled your project), now we will 
+- So now we have 3 projects/folders , one on Firebase & one on Your Local Machine & one on GitHub(Providing you versioned controlled your
+-  project), now we will 
 - have to make sure we are in the matching named folder on our pc , just like GitHub,
 
 - After we have confirmed we are in our project diretory with our firebase.json
@@ -930,7 +947,7 @@
 
 # CO2 Emissions Based On UN Data
 
-#####Co2-emissions is a Child To [DataDiscoverys.com ](https://datadiscoverys.com/)
+#####Co2-emissions is a Child To [DataDiscoverys.com](https://datadiscoverys.com/)
 - I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
 - This is part of the Four frontends which make the whole project of DataDiscoverys.com which is the last project
 - that I will be Submitting
@@ -939,50 +956,101 @@
 - from Edinburgh Napier University. This Project utilises whole miriad of technology.
 - Consult the tech section in each README.md or the Super README.md to Find Out the exact tech stack that was used to complete my project
 
+
+## My inspiration
+- for this project was the discovrys mutiversr project itself , after completing my plotly dashboard I had a much deeper
+- appreciation & understanding of data visualiasation
+- plus it much easier the fifth time around since I had build a dashboard successfully with Code Initistute ion Sylabus1 & Sylabuss3(cloud9)
+
 ## UX
  
 
 ## FUNCTIONALITY
+##### My Co2emmisions Data Dash-Board is based on
+- Data for carbon dioxide emissions include gases from the burning of fossil fuels and
+- cement manufacture, but excludes emissions from land use such as deforestation
+- For a more indepth study into actuall Meaning of Co2emmisions per capita
+- Here is a awesome link
+-[Co2emmisionspercapita](https://www.indexmundi.com/facts/indicators/EN.ATM.CO2E.PC)
+- My Co2emmisions Data Dash-Board also analisis & visualises data on emmissions 
 
-##### My Co2 Data Dash-Board is based on 
-
-
-##### On the navigation bar there is a start tour button which invites users to a quick tour of the page.
+##### On the right center of the page there is a start tour button which invites users to a quick tour of the page.
 
 ##### My dashBoard consists of:
 
-##### My whole DashBoard is based on 
-
-##### When choosing a different selection from the dropdown menu
-##### The visualisation will also fluktuate with the corresponding dropdown menu selection
-##### So inturn The corresponding selection will change with the users selection
-
-##### Elements Features
 ##### 1 
-- 
+- Range Slider
+
+##### 2 
+- Radio Check Buttons
 
 ##### 1 
-- The 
+- Pie Chart
 
 ##### 1 
-- The 
+- BarChart
+
+##### 1s 
+- LineGraph
 
 ##### 1 
-- 
+- Radial Map Chart 
+
+##### My Co2emmisions DataDashBoard features comprise of
+##### 1 
+- Range Slider
+- The Range Slider is the key to analisis
+- Statisticil over view of the worlds emmissions data over the course of a 21 year period from 1990 to 2011
+- This is where the fuctionality of our range slider comes into play
+- by manipulating the range slider to our chosen dates we can test the differencs & compariosns in the data
+- again similer to Savys layout of operations The Range Slider is the key to analisis since this is the starting point of all 3 dash-boards
+
+##### 2 
+- Radio Check Buttons
+- The range buttons gives us the abitly to choose between emmissions & emmissions per captia
+- By chooseing a selection between emmissions & emmissions per captia we can analize 2 different catergories
+- Which will yield far greater results
+
+##### 3
+- Pie Chart
+- The pie chart visualises Total emissions by continent and region & dispalys in a poup-box(tool-tip) in a percentage the values
+- Here the range slider comes into play before the PieChart
+- In order to observe the effects of the PieChart you need to again first of chosen a year
+- next observe as the piechart changes it values in percentage in color , you then need to just slide your mouse to view the corresponding
+- data which will be displayed in a poup-box(tool-tip) 
 
 
+##### 4 
+- LineGraph
+- The Line Graph 
+- the Y axis of our LineGraph displays CO2 emissions, metric tons per capita
+- By choosing to select the Emissions Per Capita Check Radio Button the Y axis of our LineGraph displays CO2 emissions, metric tons per
+- capita as a guide to assist the analist in caging the difference between the years which will be highligthed in our corrsponding barchart
+- the X axis of our LineGraph is the time line that will assist in measureing the diffrences in yearly output of data
+- in a sinqencule 2 year rise over a twenty year period
 
+##### 5
+- Radial Map
+- from green(low) to black(high)
+- The main function of the map is visualaise the differncews in country by using the use of color  
+- The Radial map is of course the main point of focus of the whole dashboard
+- This beacuse it controlls our barchart which in turn sits on our line chart
+- by clicking a country after choosing a date , we can then see the true power of this dashboard
+- as then barchart fluxtuates into postion, the analist has an amAzing view of 4 different data inducators which are
 
+- 1:Total emissions by continent and region(PIECHART) displayed with a Title & a informative tooltip
 
+- 2:CO2 Emissions, Canada Country Title(BARCHART) displayed with a time line & a informative tooltip
 
-#### So it is a ? step process,if you are planning to analise the data
-#### I have completed my own data analiaizs, if you are interrested in using the same calender for ease to comapare whit the numbers
-#### feel free to visit
+- 3:Carbon dioxide emissions (MAPCHART) displayed with a time line & a informative tooltip
 
+- 4:Total emissions by continent and region(LINEGRAPH) the Y axis of our LineGraph displays CO2 emissions, metric tons per capita
+- By choosing to select the Emissions Per Capita Check Radio Button the Y axis of our LineGraph displays CO2 emissions, metric tons per
+- capita as a guide to assist the analist in caging the difference between the years which will be highligthed in our corrsponding barchart
+- the X axis of our LineGraph is the time line that will assist in measureing the diffrences in yearly output of data
+- in a sinqencule 2 year rise over a twenty year period
 
--  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
-    - To View A tutorial On the operations & fuctionality click the link above or below
--  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
+#### So it is a 5 step process,if you are planning to analise the data
 
 ##### No1, 
 ##### No2, 
@@ -992,10 +1060,22 @@
 ##### N06,  
 
 
+##### Testing the data against 3 different Countrys was an excellent way to test the functionality
 
 
+#### I have completed my own data analiaizs, if you are interrested in using the same calender for ease to comapare whit the numbers
+#### feel free to visit
+-  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
+    - To View A tutorial On the operations & fuctionality click the link above or below
+-  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
 
-##### Testing the data against 3 different Countrys
+##### I tested each graph visually to make sure
+- everything loaded properly
+- when I selected an element on each graph the corresponding graphs responded and showed accurate statistics.
+
+##### In the developer tools I tested that the website was responsive in tablet and mobile mode and again when the project was deployed I ##### tested on my mobile, tablet and laptop that my DashBoard was responsive.
+##### All my dashboards are responsive to different screen sizes, example would be sony mobile & XL Microsoft 10 to a Tablet to a Smart tv
+- But from the Tablet & upwards is where these dashboards are most fuctional & stunning in there more natrual enviorenmnet
 
 
 
@@ -1003,9 +1083,6 @@
     - To View A tutorial On the operations & fuctionality click the link above or below
 -  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
 
-
-
-## Technologies Used
 
 
 ## How I Deployment My project
@@ -1036,14 +1113,14 @@
 - once logged in to google you will have the abilty to access the firebaseCli & its commands
 
 - Once you are satifactory with your project that you will be deploying, you will have to go your google firebase console, go to the
-- Hosting tab & create a
-- project google will give you a default folder of PUBLISH,
+- Hosting tab & create a project google will give you a default folder of PUBLISH
+- 
 
 - So now we have 3 projects/folders , one on Firebase & one on Your Local Machine & one on GitHub(Providing you versioned controlled your
-- project), now we will 
-- have to make sure we are in the matching named folder on our pc , just like GitHub,
+- project)
+- now we will have to make sure we are in the matching named folder on our pc , just like GitHub,
 
-- After we have confirmed we are in our project diretory with our firebase.json
+- After we have confirmed we are in our project directory with our firebase.json
 
 - Then it is just a matter of running the command
 
@@ -1055,7 +1132,8 @@
 - firebase deploy
 
 ### Live DashBoard
- ## My project can be viewed fully deployed on Firebase [here](https://emissions-58f03.firebaseapp.com/)
+
+### My project can be viewed fully deployed on Firebase [here](https://emissions-58f03.firebaseapp.com/)
 
 ## VERSION CONTROL
 - The deployment project folder lives at this address
@@ -1064,20 +1142,30 @@
 
 ### Content
 - The data set for this project was sourced from
-- []()
-- The project uses **kaggle** to supply free datasets for testing
+- [UNDATA](http://data.un.org/)
+- The project uses **http://data.un.org/** to supply free datasets for testing
 
 
 
 
 
 ## THE FUTURE
-##### Blue Whales
-##### 
-##### 
-##### 
-#### Migration to an nginx server
+##### the future for this project is very promising, I indend on remodeling in a kind of reverse fasion
+- To analizse the migration patterns of the BigBlue Whales
+- So the whole dashboard would be reversed so the oceans would be more of the focus point
+- A cimetrical approahch to this challenge is going to be my way forward
+- Migration to an nginx server
 
+
+### Live DashBoard
+## My project can be viewed fully deployed on Firebase [here](https://emissions-58f03.firebaseapp.com/)
+
+ ### Recommended Visualisations & Interesting Visualisations Subjects
+ - [data.worldbank.org](https://data.worldbank.org/) 
+ - [data.world](https://data.world/) 
+ - [awesomedata](https://github.com/awesomedata/awesome-public-datasets) 
+ - [www.data.gov](https://www.data.gov/) 
+ - [youtube](https://www.youtube.com/watch?v=jxMzdUoE7eY)
 
 ### Acknowledgements
 ##### I didn't base my work off other code, I used only what I had learnt from studying Data Visulisations in syllabuss1/LMS1 & syllabuss2/LMS2(cloud-9),
@@ -1086,10 +1174,7 @@
 - ServerSide Development | BackEndDevelopment | FrontEndDevelopment
 - [d3js](https://d3js.org/) Docs
 - for the whole year , it was & is amazing
-##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.3 Co2-emissions Data Visualization[DataDiscoverys.com](https://datadiscoverys.com/) , Signing Off......
-
-### Live DashBoard
- ## My project can be viewed fully deployed on Firebase [here](https://emissions-58f03.firebaseapp.com/)
+##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.0 3.1 3.2 3.3 Co2-emissions Data Visualization[DataDiscoverys.com](https://datadiscoverys.com/) , Signing Off......
 
 
 
