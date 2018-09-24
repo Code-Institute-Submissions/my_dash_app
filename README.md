@@ -960,7 +960,9 @@
 ## My inspiration
 - for this project was the discovrys mutiversr project itself , after completing my plotly dashboard I had a much deeper
 - appreciation & understanding of data visualiasation
-- plus it much easier the fifth time around since I had build a dashboard successfully with Code Initistute ion Sylabus1 & Sylabuss3(cloud9)
+- plus it much easier the fifth time around since I had build dashboards successfully with Code Initistute on Sylabus1 & Sylabuss3(cloud9)
+- The introdution of Co2Emmisions into datadiscovrys was a game changer for the whole project as a whole
+- with the introduction of a completly new concept & such a broad data-set it was sure to fit in very well with the whole projects
 
 ## UX
  
@@ -1175,6 +1177,7 @@
 - [d3js](https://d3js.org/) Docs
 - for the whole year , it was & is amazing
 ##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.0 3.1 3.2 3.3 Co2-emissions Data Visualization[DataDiscoverys.com](https://datadiscoverys.com/) , Signing Off......
+
 
 
 
