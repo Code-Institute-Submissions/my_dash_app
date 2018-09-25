@@ -8,21 +8,18 @@
 - This is DataDiscoverys.com which is the Mother Project To House, Display, Showcase, Connect, Document, Instructe
 - The User on how to use, study, test, compare, learn, in this UI Testing Arena
 - The driving force behind this project was to create a system in which any developer that is testing data dashboards can write there tests
-- While it is very obvious that all tests will be carried out on the actuall dash board itself, I have found & I aslo have been told by
-- more students that after
-- they have build ther dashboards they find it diffucult to explain the fuctionalitys of there dashborad, which they have been working on &
-- developing for hard & so long
+- While it is very obvious that all tests will be carried out on the actuall dash board itself, I have found & I aslo have been told by more students that after
+
+- they have build ther dashboards they find it diffucult to explain the fuctionalitys of there dashboard, which they have been working on &
+- developing on for so long
 - Because of this fact, this issue can be very fustrating for the developer of the data dashboard
-- In the process of developing this Arena, my UI testing abilitys inhanced ten fold, so much so to the point of being able to test 3
-- different tests on 3
+- In the process of developing this Arena, my UI testing abilitys inhanced ten fold, so much so to the point of being able to test 3 different tests on 3
 - different dashboards with accurate rersults each time
 - I really beleive this was because of the UX,
 - It is obvious that I needed to concieve & construct my own tests before ever entering the test block into WordPress
-- But this is where the magic did happen, On the first try, after comparing my data in my notes after I ran all my tests on my dashboards
-- manualy
+- But this is where the magic did happen, On the first try, after comparing my data in my notes after I ran all my tests on my dashboards manualy
 - I had alot of info, this became confusing very quickly
-- This is when datadiscoverys came into play, when I transferred all my tests & layed them out in a clear easy to understand format with
-- alot of promts
+- This is when datadiscoverys came into play, when I transferred all my tests & layed them out in a clear easy to understand format with alot of promts
 - The abilty to read the data became a pure Joy
 - I agian proved this to myself agian by consrtucting another 2 dashboards, it was like the missing piece of the puzzle
 - After testing one so rigourisly, I just needed to follow my origanl pattern
@@ -31,18 +28,41 @@
 
 
 - This is the third of five projects which I must complete in order to be awarded the globally recognised Diploma 
-- from Edinburgh Napier University. This Project utilises whole miriad of technology.
-- Consult the tech section in each README.md or the Super README.md to Find Out the exact tech stack taht was used to complete my project
+- from Edinburgh Napier University. This Project utilises whole miriad of technologys.
+
+## THE NEEDS THIS PROJECT FULFILLS
+##### The needs for this project are numerous,
+- Students who want to create a block in adobe xd or just a pencil & white sheet of paper,
+- Students can send me there mock up & there UI testing flow
+- I can then transfer there mockup into there own testing UI block on datadiacoverys.com
+- Students can add there name, description of there dashboard, a short sales pitch to promote there UI Testing
+- With the power & ease of elementor on wordpress, any mockup submitted for UI testing can be adapted to there needs
+- Students learning data visulisation,
+- developers who will want to bring these data visulisations to life with real time data sets from API Sources
+- To designers looking to get ideas for there own data visulisations
+- this project can also be used as an going basis to showcase data visulisations with the ease of wordpress
+- Online colleges can post there students data visulisations here by just contacting the developer for showcasing
+- I myself can use this dashboard for my own business to measure fluctuations in website delivery
+
+ 
+## UX for the whole project
+ 
+- The UX tru out this project is with one style & that is to represent the data in the showcased screenshots
+- With a white background & a suttle awesome grey, it is a difficult style to achieve because of it pure simplicity
+- The user or reader is slowly traversed down the page to soak up the information & gaze at the visulisations
+- The navbar & its elements, my links are situated top center , this is indented to both powerfull & reasurring
+- But not overwhelming, with my links containig no hover, so as to have no other moving parts to my layout of operations
+- These elements are as minimil as possible, to sit nicely with the rest of the flow of the page
+- All content is completly relevent to its counter part on the page, there should no content that is !not being utilised in one way
+
 
 
 ### The Super Model Wordpress Configueration
 - The Front End to this project is without doubht wordpress, with the OceanWP Wordpress Theme
-- I only used the theme to gain access to the blocks, from then onward I used Elemenoter to create my own theme
-- With the power of Nginx ???????????????????
-- The simplcity & advantage I had was Sucnificent, due to the fact I configured the server & obatianed a domain name
+- I only used the theme to gain access to the blocks, from then onward I used Elemenoter to create my own theme With the power of Nginx
+- The simplcity & advantage I had was Sucnificent, due to the fact I configured the server & obtianed a domain name
 - this meant that I had & have complete controll over my own server which is hosted on Ditigital Ocean 
-- I attached a floating ip & configerd the back end with PHPMYAdmin
-- with no SQL as the chosen query language
+- I attached a floating ip & configerd the back end with PHPMYAdmin with no SQL as the chosen query language
 - This meant that I could concentrate on the 3 dashbaords & not have to worry about the frontend
 - this was an excellent solution to the fact I was developing on my own & needed an assistant
 - WordPress was that assistant, this gave me the abilty to create this DataDashBoard Showcase
@@ -53,8 +73,8 @@
 - To Deploy a Virtual Server on Digital Ocean with Ubuntu 18.04
 - The very First step I took was to buy a domain name from GoDaddy.com
 - This introduced me to Virtual Servers, Digital Ocean Was the company of chioce
-- Documentaion & tutorials on to configure all different types of server Stacks are at an abundance & are of an amazing Qautily on Digital
-- Ocean 
+- Documentaion & tutorials on to configure all different types of server Stacks are at an abundance & are of an amazing Quatily on Digital Ocean
+  
 - The next task to consider was that of IP,s & Floating IP,s
 - after observation of documenatation on how eaxctly to accomplish this
 - After attaching a Floating IP to a Digital Ocean Virtual Server
@@ -180,9 +200,14 @@
 - I received inspiration for this project from studying the Awesome
 - Python Programming Language | JavaScript Programming Language
 - Data Visualization | DataBase Development & Managment
-- ServerSide Development | BackEndDevelopment | FrontEndDevelopment
+- ServerSide Development | BackEndDevelopment | FrontEndDevelopment | CMS Development
 - for the whole year , it was & is amazing
 ##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.1 Data Visualization[DataDiscoverys.com ](https://datadiscoverys.com/) , Signing Off......
+
+
+
+
+
 
 
 ########################################################################################################################################
@@ -204,8 +229,8 @@
 # NASTAC Plotly Stock DashBoard
 
 - The idea for this project came from a D3 Stock DasBoard that I had prevouisly seen. After completing the modules in our
- - syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil
- - code & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
+ - syllabus & seeing that they are small I wanted to find a libereirey that I could build a dashboard with minimil code 
+ - & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
  - efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
  - it is also very easy to use, with minimil color so as to not distracte from the objective, which is to 
  - allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
@@ -255,22 +280,20 @@
 - Our Submit button is ajason to our main elements , leading to the right, but with suffieceint space &
 - clarity to be easly seen & interperrted,
 
-- Our Ploty Interactive Tabs are ajason to our submit button , leading to the right, this tool bar is very powerfull &
-- is for the more advanced users
+- Our Ploty Interactive Tabs are ajason to our submit button , leading to the right, this tool bar is very powerfull & is for the more advanced users
 
 - The DashBoard its self sits on a barly viisble cross checked grey grid , but protomlitly it is white ,
 - which creates almost like a interactive white sheet of paper, this is very effective when it comes to reading the data &
 - visually interpertting the outcome of comparison of stock change, agian very easy to use.
 
-- Our Tool Tips are very effetive in there seemless intergration to our calender on the x axis , protraying the rise & fall
-- on the stock price,
+- Our Tool Tips are very effetive in there seemless intergration to our calender on the x axis , protraying the rise & fall on the stock price,
 
-- Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very
-- contrasting colors
+- Our line Chart is the main focus , with the chosen company & the chosen date, we see the data clearly defined in light but very contrasting colors
 - so as to not obscure from it rivals on the main interface , our line chart is very successfull in its operations 
-- I wanted to find a libereirey that I could build a dashboard with minimil code 
- - still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
- - efficently & seemlsy, & the fact I could use python while this is not a massive dash board , it does excalty what it suppossed to do ,
+- I wanted to find a library that I could build a dashboard with minimil code 
+ - & still have the same effect, but most importantly I wanted the dashboard to clearly define the data & for the dashboard operate
+ - efficently & seemlsy, & the fact I could use python
+ - while this is not a massive dash board , it does excalty what it suppossed to do ,
  - it is also very easy to use, with minimil color so as to not distracte from the objective, which is to 
  - allow users to select one or more stocks, a start and end date, and have the closing stock prices displayed as a time series,
  
@@ -299,13 +322,12 @@
 
  - it becomes a very small light but powerfull stack of software technologys.
 
- - Creating an account on plotly was a breese , but the cloud console does take some getting used to,
+ - Creating an account on plotly was a breese , but the cloud console does take some getting used to & the ploty documentaion is excellent 
 
- - the ploty documentaion is excellent 
 
 ## Features
 - The features in my project are simple but very powerful
-- 1: A Drop down menu with a list of Companies fom the NASTAC StockMarket
+- 1: A Drop down menu with a list of Companies from the NASTAC StockMarket
 - 2: A Drop down calender which has a timeline from 2015 to 2018
 - 3: The main DashBoards Chart is a simple but powerful Line Chart Visualisation that responds to user selection & input
 - 4: The Submit Button is the trigger that fires the data Request
@@ -320,7 +342,7 @@
 
 ##### In the developer tools I tested that the website was responsive in tablet and mobile mode and again when the project was deployed I ##### tested on my mobile, tablet and laptop that my DashBoard was responsive.
 ##### All dashboards are responsive to different screen sizes, example would be sony mobile & XL Microsoft 10 to a Tablet to a Smart tv
-- But froom the Tablet & upwards is where these dashboards are most fuctional & stunning in there more natrual enviorenmnet
+- But froom the Tablet & upwards is where these dashboards are most fuctional & stunning in there more natrual environments
 
 ##### To Enjoy an easier & more easy on the eye way to
 ##### View Exstensive User Testing With The NASTAC StockTracker please Visit
@@ -982,6 +1004,26 @@
 - ServerSide Development | BackEndDevelopment | FrontEndDevelopment
 - for the whole year , it was & is amazing
 ##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.2 SAVY Data Visualization[DataDiscoverys.com ](https://datadiscoverys.com/) , Signing Off......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ########################################################################################################################################
