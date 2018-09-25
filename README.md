@@ -6,7 +6,27 @@
 ##### Is the Super Front End To The 3 DataDash Boards In this project, thus making it 1 
 - I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development. 
 - This is DataDiscoverys.com which is the Mother Project To House, Display, Showcase, Connect, Document, Instructe
-- The User on how to use, study, test, compare, learn, in this showcase mutiverse
+- The User on how to use, study, test, compare, learn, in this UI Testing Arena
+- The driving force behind this project was to create a system in which any developer that is testing data dashboards can write there tests
+- While it is very obvious that all tests will be carried out on the actuall dash board itself, I have found & I aslo have been told by
+- more students that after
+- they have build ther dashboards they find it diffucult to explain the fuctionalitys of there dashborad, which they have been working on &
+- developing for hard & so long
+- Because of this fact, this issue can be very fustrating for the developer of the data dashboard
+- In the process of developing this Arena, my UI testing abilitys inhanced ten fold, so much so to the point of being able to test 3
+- different tests on 3
+- different dashboards with accurate rersults each time
+- I really beleive this was because of the UX,
+- It is obvious that I needed to concieve & construct my own tests before ever entering the test block into WordPress
+- But this is where the magic did happen, On the first try, after comparing my data in my notes after I ran all my tests on my dashboards
+- manualy
+- I had alot of info, this became confusing very quickly
+- This is when datadiscoverys came into play, when I transferred all my tests & layed them out in a clear easy to understand format with
+- alot of promts
+- The abilty to read the data became a pure Joy
+- I agian proved this to myself agian by consrtucting another 2 dashboards, it was like the missing piece of the puzzle
+- After testing one so rigourisly, I just needed to follow my origanl pattern
+- But all dash boards have a different tests
 - With a dedicated blog in production & on the way
 
 
@@ -127,10 +147,28 @@
 - Step:5
 - Securing PhpMyAdmin using symbolic links and NGINX’s built in authentication gateway.
 - PhpMyAdmin on NGINX Install & Secure PhpMyAdmin for Database Management
+- I accomplished this in my Putty terminal while bieng a Session with the command
+- apt-get install phpmyadmin
+- I then configured a symbolic link for extra secuirity
 
 
 - Step:6
 - WordPress on NGINX Install and Configure WordPress on NGINX
+- With my server onfigured I could now install WordPress
+- I needed to create a database
+- So I logged into mysql
+- With my database onfigured I could now install WordPress
+- I accomplished this in my Putty terminal while bieng a Session with the command
+- sudo apt install php-curl php-gd php-mbstring php-soap php-xml php-xmlrpc php-zip
+
+
+##### Wordpress Bug
+- I have a small wordpress issue going on at the moment, I am unable to update certain parts of my website with elementor
+- & it is proving to be quite diffucult to debug since I have no log files
+- I am nearly positve the problem is in my wordpress memory
+- I am currently working on this issue & will most defintly have resolved the bug before the release of his website
+- Which will be after I recive my results & the bug is resolved
+
 
 
 
@@ -415,8 +453,8 @@
 - Consult the tech section in each README.md or the Super README.md to Find Out the exact tech stack that was used to complete my project
 
 ### The inspiration for this project came from studying Data Visulisations in syllabuss1/LMS1 & syllabuss2/LMS2(cloud-9),
-- With Code Intitstutes
-- My idea is create a multi connected dashboard showcase for data visulisationss
+- With Code Intitstute
+- My idea is create a multi connected dashboard showcase for data visulisation ui & ux testing 
 - My project has 4 frontends
 - It is in all deployed on 3 different servers
 - This is the project in which I wanted to bring all my skills together
@@ -430,7 +468,12 @@
 
 ## THE NEEDS THIS PROJECT FULFILLS
 ##### The needs for this project are numerous,
-- from students learning data visulisation to,
+- Students who want to create a block in adobe xd or just a pencil & white sheet of paper,
+- Students can send me there mock up & there UI testing flow
+- I can then transfer there mockup into there own testing UI block on datadiacoverys.com
+- Students can add there name, description of there dashboard, a short sales pitch to promote there UI Testing
+- With the power & ease of elementor on wordpress, any mockup submitted for UI testing can be adapted to there needs
+- Students learning data visulisation,
 - developers who will want to bring these data visulisations to life with real time data sets from API Sources
 - To designers looking to get ideas for there own data visulisations
 - this project can also be used as an going basis to showcase data visulisations with the ease of wordpress
@@ -438,7 +481,7 @@
 - I myself can use this dashboard for my own business to measure fluctuations in website delivery
 
  
-## UX
+## UX for the whole project
  
 - The UX tru out this project is with one style & that is to represent the data in the showcased screenshots
 - With a white background & a suttle awesome grey, it is a difficult style to achieve because of it pure simplicity
@@ -468,7 +511,7 @@
 ##### My dashboard will measure the trends in CallDurations Times that employees spend on the phone
 ##### This is measured in seconds for higher accuracy
 
-##### The big graph is a zoom of the smaller graph so the user can analize the data more accuratly
+##### The big graph is a zoom of the smaller graph so the user can analyze the data more accuratly
 ##### The charts on the right are showing summery data for the data the user has selected
 
 ##### everytime the user observes the dates changing, it is a result of the user, by using the mouse as the cursor to brush in the input in the Context Graph
@@ -961,8 +1004,8 @@
 - for this project was the discovrys mutiversr project itself , after completing my plotly dashboard I had a much deeper
 - appreciation & understanding of data visualiasation
 - plus it much easier the fifth time around since I had build dashboards successfully with Code Initistute on Sylabus1 & Sylabuss3(cloud9)
-- The introdution of Co2Emmisions into datadiscovrys was a game changer for the whole project as a whole
-- with the introduction of a completly new concept & such a broad data-set it was sure to fit in very well with the whole projects
+- The introduction of Co2Emmisions into datadiscovrys was a game changer for the whole project as a whole
+- with the introduction of a completly new concept & such a broad data-set it was sure to fit in very well with the whole project
 
 ## UX
  
@@ -976,7 +1019,7 @@
 -[Co2emmisionspercapita](https://www.indexmundi.com/facts/indicators/EN.ATM.CO2E.PC)
 - My Co2emmisions Data Dash-Board also analisis & visualises data on emmissions 
 
-##### On the right center of the page there is a start tour button which invites users to a quick tour of the page.
+##### On the right center of the page there is a Show Me How button which invites users to a quick tour of the page.
 
 ##### My dashBoard consists of:
 
@@ -992,7 +1035,7 @@
 ##### 1 
 - BarChart
 
-##### 1s 
+##### 1 
 - LineGraph
 
 ##### 1 
@@ -1066,7 +1109,7 @@
 ##### Testing the data against 3 different Countrys was an excellent way to test the functionality
 
 
-#### I have completed my own data analiaizs, if you are interrested in using the same calender for ease to comapare whit the numbers
+#### I have completed my own data analiaizs, if you are interested in using the same Timeline for ease to comapare whit the numbers
 #### feel free to visit
 -  [https://datadiscoverys.com/Tuts](https://datadiscoverys.com)
     - To View A tutorial On the operations & fuctionality click the link above or below
@@ -1177,7 +1220,7 @@
 - ServerSide Development | BackEndDevelopment | FrontEndDevelopment
 - [d3js](https://d3js.org/) Docs
 - for the whole year , it was & is amazing
-##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number 3.0 3.1 3.2 3.3 Co2-emissions Data Visualization[DataDiscoverys.com](https://datadiscoverys.com/) , Signing Off......
+##### 10/09/2018 This is Clive Noonan , Code Initstute , Project Number (3.0 3.1 3.2 3.3 = No3)   Co2-emissions Data Visualization[DataDiscoverys.com](https://datadiscoverys.com/) , Signing Off......
 
 
 
